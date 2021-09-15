@@ -1,0 +1,446 @@
+@media only screen and (max-width: 500px){
+    header, .containerOne, .containerTwo, .containerThree, footer {
+      padding: 0;
+      overflow: hidden;
+    }
+  
+    header {
+      height: 500px;
+    }
+  
+    header nav ul {
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    header nav ul li{
+      margin-left: 10px;
+      font-size: 1.3rem;
+    }
+    header nav .leftNav {
+      float: left;
+    }
+    header nav ul img{
+      padding: 0;
+      margin: 0;
+      width: 40px;
+    }
+  
+    header nav ul .button{ 
+      margin: 0;
+      padding: 2px 10px;
+      float: right;
+    }
+  
+    header h1 {
+      font-size: 3rem;
+      margin-top: 40px;
+    }  
+  
+    header h2 {
+      font-size: 1rem;
+    }
+  
+    header p {
+      margin-bottom: 20px;
+    }
+  
+    /* Container One */
+    .containerOne {
+      height: 400px;
+    }
+    .containerOne h3 {
+      font-size: 1.6rem;
+      margin-top: 20px;
+    }
+  
+    /* Container Two*/
+    .containerTwo {
+      height: 600px;
+    }
+    .containerTwo .box{
+      display: none;
+    }
+    .containerTwo h4 {
+      font-size: 1.8rem;
+    }
+    .leftArea, .rightArea {
+      width: 100%;
+      padding: 0px 30px;
+      text-align: center;
+    }
+    .leftArea {
+      margin-bottom: 30px;
+    }
+  
+    .containerTwo a {
+      margin: 0;
+      margin-top: 15px;
+    }
+  
+    /* Container Three */
+    .containerThree {
+      height: 350px;
+      text-align: center;
+    }
+    .containerThree h3 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    .containerThree a {
+      margin: 0;
+      margin-top: 10px;
+    }
+  
+    /* Footer */
+    footer{
+      text-align: center;
+      height:270px;
+    }
+    
+    footer .contactList {
+      margin-left: 20px;
+    }
+  
+    section.footerBottom img {
+      display: none;
+    }
+  
+    footer .contactList, .footer .rightInfo {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 800px){
+    header, .containerOne, .containerTwo, .containerThree, footer {
+    padding: 0;
+    }
+    
+    header {
+      height: 490px;
+    }
+  
+    header nav ul {
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    header nav ul li{
+      margin-left: 10px;
+      font-size: 1.3rem;
+    }
+    header nav .leftNav {
+      float: left;
+    }
+    header nav ul img{
+      padding: 0;
+      margin: 0;
+      width: 40px;
+    }
+  
+    header nav ul .button{ 
+      margin: 0;
+      padding: 2px 10px;
+      float: right;
+    }
+  
+    header h1 {
+      font-size: 3rem;
+      margin-top: 40px;
+    }  
+  
+    header h2 {
+      font-size: 1rem;
+    }
+  
+    header p {
+      margin-bottom: 20px;
+    }
+  
+      /* Container One */
+    .containerOne {
+      height: 350px;
+    }
+    .containerOne h3 {
+      font-size: 1.6rem;
+      margin-top: 20px;
+    }
+  
+    /* Container Two */
+    .containerTwo {
+      height: 560px;
+    }
+    .containerTwo .box{
+      display: none;
+    }
+    .containerTwo h4 {
+      font-size: 1.8rem;
+    }
+    .leftArea, .rightArea {
+      width: 100%;
+      padding: 0px 30px;
+      text-align: center;
+    }
+    .leftArea {
+      margin-bottom: 30px;
+    }
+  
+    .containerTwo a {
+      margin: 0;
+      margin-top: 15px;
+    }
+    /* Container Three */
+    .containerThree {
+      height: 320px;
+      text-align: center;
+    }
+    .containerThree h3 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    .containerThree a {
+      display:none;
+    }
+
+  
+    footer{
+      text-align: center;
+      height:270px;
+    }
+    
+    footer .contactList {
+      margin-left: 20px;
+    }
+    footer .contactList, .footer .rightInfo {
+      width: 50%;
+    }
+  
+    section.footerBottom img {
+      display: none;
+    }
+    section.footerBottom p {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  @media (min-width: 801px) and (max-width: 1100px){
+    header, .containerOne, .containerTwo, .containerThree, footer {
+      padding: 0;
+      overflow: hidden;
+    }
+  
+    header {
+      height: 450px;
+    }
+    header nav ul {
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    header nav ul li{
+      margin-left: 10px;
+      font-size: 1.3rem;
+    }
+    header nav .leftNav {
+      float: left;
+    }
+    header nav ul img{
+      padding: 0;
+      margin: 0;
+      width: 40px;
+    }
+  
+    header nav ul .button{ 
+      margin: 0;
+      padding: 2px 10px;
+      float: right;
+    }
+  
+    header h1 {
+      font-size: 3rem;
+      margin-top: 40px;
+    }  
+    header h2 {
+      font-size: 1.2rem;
+    }
+  
+    header p {
+      margin-bottom: 20px;
+    }
+    /* Container One */
+    .containerOne {
+      height: 300px;
+    }
+    .containerOne h3 {
+      font-size: 1.6rem;
+      margin-top: 20px;
+    }
+    /* Container Two */
+    .containerTwo {
+      padding: 0px 20px;
+      padding-top: 20px;
+      height: 500px;
+    }
+    /* Container Three */
+    .containerThree {
+      height: 300px;
+      text-align: center;
+    }
+    .containerThree h3 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    .containerThree a {
+      margin: 0;
+      margin-top: 10px;
+    }
+  
+    /* Footer */
+      footer{
+      text-align: center;
+      height:270px;
+    }
+    
+    footer .contactList {
+      margin-left: 20px;
+    }
+    footer .contactList, .footer .rightInfo {
+      width: 50%;
+    }
+  
+    section.footerBottom img {
+      display: none;
+    }
+    section.footerBottom p {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  @media (min-width: 1101px) and (max-width: 1300px){
+     header, .containerOne, .containerTwo, .containerThree, footer {
+      padding: 0;
+      overflow: hidden;
+    }
+    header {
+      height: 500px;
+    }
+    header nav ul {
+      text-align: center;
+      padding-top: 10px;
+    }
+  
+    header nav ul li{
+      margin-left: 10px;
+      font-size: 1.3rem;
+    }
+    header nav .leftNav {
+      float: left;
+    }
+    header nav ul img{
+      padding: 0;
+      margin: 0;
+      width: 40px;
+    }
+  
+    header nav ul .button{ 
+      margin: 0;
+      padding: 2px 10px;
+      float: right;
+    }
+  
+    header p {
+      margin-bottom: 20px;
+    }
+    /* Container One */
+    .containerOne {
+      height: 300px;
+      padding-top: 20px;
+    }
+    /* Container Two */
+    .containerTwo {
+      height: 470px;
+      padding: 0px 20px;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .containerTwo a {
+      margin-left: 0px;
+    }
+    /* Container Three */
+    .containerThree {
+      height: 300px;
+      text-align: center;
+      padding-top: 15px;
+    }
+    .containerThree a {
+      margin: 0;
+      margin-top: 20px;
+    }
+    /* Footer Section */
+    footer {
+    height: 250px;
+    background-color: rgb(22, 31, 42);
+    color:rgb(219, 223, 226);
+    padding: 0px 150px;
+    }
+  
+    footer .footerSection{
+      padding: 30px 0px;
+    }
+    /* Contact List */
+    footer .contactList {
+      width: 70%;
+      float: left;
+    }
+      footer .rightInfo {
+      width: 30%;
+      float: left;
+      text-align: left;
+    }
+  
+    footer .footerSection .rightInfo li {
+      font-size: .9rem;
+      font-weight: 300;
+    }
+  
+    footer .footerSection .rightInfo {
+      text-align: center;
+    }
+  
+    footer .footerSection .rightInfo li:first-child{
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+    section.footerBottom img {
+    display: none;
+    }
+  }
+  
+  @media (min-width: 1301px) and (max-width: 1515px){
+  
+    .containerTwo {
+      padding: 0;
+      padding: 100px 200px;
+    }
+  
+    .containerThree {
+      text-align: center;
+    }
+    .containerThree a {
+      margin: 0;
+      margin-top: 20px;
+    }
+   
+    section.footerBottom img {
+      width: 29px;
+      float: left;
+      margin: -10px 0px 0px 400px;
+    }
+  }

@@ -1,0 +1,294 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  .alignright {
+      float: right;
+      padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  }
+  
+  .alignleft {
+      float: left;
+      padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* This helps links to stay same color */
+  a:hover, a:link, a:active, a:visited {
+    color: inherit;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  * {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+  } 
+ 
+  /* Navigation Header */
+  header {
+    height: 540px;
+    background-color: rgb(102, 118, 138);
+    color: white;
+    padding: 15px 200px;
+  }
+  
+  header nav ul li{
+    display: inline-block;
+    font-size: .97rem;
+  }
+  
+  header .leftNav {
+    margin-left: 10px;
+  }
+  
+  header nav ul img {
+    width: 40px;
+    margin-left: 400px;
+  }
+  
+  header nav ul .button{
+    float: right;
+    padding: 5px 13px;
+    background-color: rgb(255,255,255);
+    color: rgb(102, 118, 138);
+    border-radius: 5px;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin: 80px 0px 0px 0px;
+  }
+  
+  header h2 {
+    text-align: center;
+    font-weight: 400;
+    width: 70%;
+    margin: 35px auto;
+    font-size: 1.3rem;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 70px;
+    letter-spacing: 0.2rem;
+  }
+  
+  header p i {
+    font-size: 1.8rem;
+    color: rgb(255,255,255, 0.8);
+    margin-right: 5px;
+  }
+ 
+  /* Container One */
+  .containerOne {
+    height: 450px;
+    padding: 100px 300px;
+  }
+  
+  .containerOne h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .containerOne p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  /* Container Two */
+  .containerTwo {
+    height: 650px;
+    background-color: rgb(219, 223, 226);
+    padding: 100px 300px;
+  }
+  
+  .leftArea, .rightArea {
+    width: 50%;
+    float: left;
+  }
+  
+  .containerTwo .box {
+    height: 180px;
+    width: 350px;
+    background-color: rgb(102, 118, 138);
+    margin: 0 auto;
+    box-shadow: 5px 10px 20px rgb(102, 118, 138, 0.8);
+  }
+  
+  .containerTwo h4 {
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .containerTwo p {
+    font-size: .9rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: sans-serif;
+    width: 90%;
+  }
+  
+  .containerTwo a {
+    display: inline-block;
+    margin: 30px 0px 0px 150px;
+    border: 1px solid rgb(22, 31, 42);
+    padding: 12px 50px;
+    font-size: .9rem;
+  }
+  
+  /* Container Three */
+  .containerThree {
+    height: 480px;
+    padding: 100px 300px;
+  }
+  
+  .containerThree h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .containerThree p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .containerThree a {
+    display: inline-block;
+    /* text-align: center; */
+    margin: 30px 0px 0px 380px;
+    border: 1px solid rgb(22, 31, 42);
+    padding: 12px 40px;
+  }
+  
+  /* FOOTER SECTION */
+  footer {
+    height: 250px;
+    background-color: rgb(22, 31, 42);
+    color:white;
+    padding: 0px 150px;
+  }
+  
+  footer .footerSection{
+    padding: 30px 0px;
+  }
+  /* Contact List */
+  footer .contactList {
+    width: 70%;
+    float: left;
+  }
+  
+  footer .footerSection .contactList li{
+    display: inline;
+    font-size: 1rem;
+  }
+  
+  footer .footerSection .contactList i {
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  
+  footer .footerSection .contactList h6 {
+    font-size: .7rem;
+    color: rgb(102, 118, 138);
+    margin: 5px 0px;
+  }
+  
+  footer .footerSection .contactList .targetLi{
+    margin-right: 25px;
+  }
+  
+  /* Right Information */
+  
+  footer .rightInfo {
+    width: 30%;
+    float: left;
+    text-align: left;
+  }
+  
+  footer .footerSection .rightInfo li {
+    font-size: .9rem;
+    font-weight: 300;
+  }
+  
+  footer .footerSection .rightInfo {
+    text-align: center;
+  }
+  
+  footer .footerSection .rightInfo li:first-child{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  /* Footer Bottom */
+  section.footerBottom {
+    display: block;
+    float: left; 
+    width: 100%;
+    border-top: 2px solid white;
+    margin: 30px 0px;
+    padding-top: 20px;
+    font-size: .9rem;
+    overflow: hidden;
+  }
+  
+  section.footerBottom p {
+    float: left;
+  }
+  
+  section.footerBottom img {
+    width: 29px;
+    float: left;
+    margin: -10px 0px 0px 53%;
+  }
